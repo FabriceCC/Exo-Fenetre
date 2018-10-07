@@ -54,14 +54,38 @@
 		0CD478422169EBAA003D9539 /* Exo Fenetre */ = {
 			isa = PBXGroup;
 			children = (
+				0CD478572169ECD4003D9539 /* VIEW */,
+				0CD478562169ECC9003D9539 /* CONTROLLER */,
+				0CD478552169ECBD003D9539 /* MODEL */,
 				0CD478432169EBAB003D9539 /* AppDelegate.swift */,
-				0CD478452169EBAB003D9539 /* ViewController.swift */,
-				0CD478472169EBAB003D9539 /* Main.storyboard */,
 				0CD4784A2169EBAD003D9539 /* Assets.xcassets */,
 				0CD4784C2169EBAD003D9539 /* LaunchScreen.storyboard */,
 				0CD4784F2169EBAD003D9539 /* Info.plist */,
 			);
 			path = "Exo Fenetre";
+			sourceTree = "<group>";
+		};
+		0CD478552169ECBD003D9539 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		0CD478562169ECC9003D9539 /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				0CD478452169EBAB003D9539 /* ViewController.swift */,
+			);
+			path = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		0CD478572169ECD4003D9539 /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				0CD478472169EBAB003D9539 /* Main.storyboard */,
+			);
+			path = VIEW;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
